@@ -1,3 +1,18 @@
+#title-1{
+  color: #59ba71;
+  position: fixed;
+left: 50%;
+}
+#title-2{
+  color: #59ba71;
+  position: fixed;
+  top: 60px;
+left: 50%;
+}
+.headings{
+    color: #59ba71;
+
+}
 #next{
     margin:20px;
     width: 50px;
@@ -6,4 +21,14 @@ button{
     color: white;
 background-color: #59ba71;
   border-radius: 28px;
+}
+#leprechaun-img{
+  width: 150px;
+}
+#clover-img{
+  width: 200px;
+}
+#logo-img{
+  width: 100px;
+  posti
 }
