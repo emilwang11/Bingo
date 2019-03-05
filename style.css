@@ -1,13 +1,16 @@
-#title-1{
+#container{
+  position: relative;
   color: #59ba71;
-  position: fixed;
-left: 50%;
+
+}
+#title-1{
+  left: 37%;
+  position: absolute;
 }
 #title-2{
-  color: #59ba71;
-  position: fixed;
-  top: 60px;
-left: 50%;
+  left: 45%;
+  top: 50px;
+  position: absolute;
 }
 .headings{
     color: #59ba71;
@@ -26,9 +29,14 @@ background-color: #59ba71;
   width: 150px;
 }
 #clover-img{
-  width: 200px;
+  width: 30%;
+}
+#background-img{
+  width: 45%;
 }
 #logo-img{
   width: 100px;
-  posti
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
 }
