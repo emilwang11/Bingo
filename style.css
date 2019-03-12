@@ -1,42 +1,101 @@
-#container{
-  position: relative;
-  color: #59ba71;
-
+*{
+  font-family: 'Arvo', serif;
 }
-#title-1{
-  left: 37%;
+#title-img{
+  left: 35%;
+  top: 3%;
+  font-family: "Cooper Black", bold;
   position: absolute;
 }
-#title-2{
-  left: 45%;
-  top: 50px;
+#headings{
+    color: #57bf7c;
+}
+#numCalled{
   position: absolute;
+  width: 30%;
+  top: 13%;
+  left: 17%;
+  z-index: 999;
 }
-.headings{
-    color: #59ba71;
-
+#alreadyCalled{
+    position: absolute;
+    width: 29%;
+    font-size: 30px;
+    top: 13%;
+    left: 67%;
+    z-index: 999;
 }
-#next{
-    margin:20px;
-    width: 50px;
+#nextButton{
+    width: 13%;
+    height: 8%;
+    font-size: 30px;
+    position: absolute;
+    bottom: 8%;
+    left: 17%;
+    color:#48935b;
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+}
+#refresh{
+  position: absolute;
+  bottom: 3%;
+  left: 21%;
+  height: 4%;
+  color:#48935b;
+  font-family: 'Arvo', serif;
 }
 button{
-    color: white;
-background-color: #59ba71;
+  background-color: #A7EDA5;
   border-radius: 28px;
+  color:#48935b;
+}
+.calls{
+  position: absolute;
+  z-index: 999;
+  font-size: 60px;
+  top:41%;
+  left: 19%;
+  color: white;
+}
+.noMoreCalls{
+  position: absolute;
+  z-index: 999;
+  font-size: 32px;
+  width: 10%;
+  text-Align: center;
+  top:41%;
+  left: 17%;
+  color: white;
+}
+#pastCalls{
+  position: absolute;
+  z-index: 999;
+  font-size: 39px;
+  top:23%;
+  left: 54%;
+  color:#48935b;
 }
 #leprechaun-img{
-  width: 150px;
+  width: 14%;
+  position: absolute;
+  left: 38%;
+  bottom: 5%;
 }
 #clover-img{
   width: 30%;
+  position: absolute;
+  left: 7%;
+  top: 15%
 }
 #background-img{
-  width: 45%;
+  width: 46%;
+  position: absolute;
+  left: 53%;
+  top: 20%;
 }
 #logo-img{
-  width: 100px;
+  width: 13%;
   position: absolute;
-  bottom: 10%;
-  right: 20%;
+  bottom: 5px;
+  right: 5px;
 }
