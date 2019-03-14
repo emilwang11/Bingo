@@ -70,7 +70,7 @@ button{
 #pastCalls{
   position: absolute;
   z-index: 999;
-  font-size: 39px;
+  font-size: 3.8em;
   top:23%;
   left: 54%;
   color:#48935b;
